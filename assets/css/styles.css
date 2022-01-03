@@ -202,7 +202,7 @@ height: auto;
   cursor: pointer;
 }
 
-.nav__toggle: hover{
+.nav__toggle:hover{
   color: var(--first-color);
 }
 
@@ -283,7 +283,7 @@ box-shadow: 0 -1px 4px rgba(0, 0, 0, .15);
 
 .home__social{
 	display:grid;
-	grid-template-colums: max-content;
+	grid-template-columns: max-content;
 	row-gap: 1rem;
 }
 
@@ -975,7 +975,7 @@ margin-top: var(--mb-3);
 /*========== SCROLL UP ==========*/
 .scrollup{
 position: fixed;
-right: 1rem;
+left: 1rem;
 bottom: -20%;
 background-color: var(--first-color);
 opacity: .8;
